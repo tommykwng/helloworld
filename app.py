@@ -18,5 +18,5 @@ if st.button("Classify"):
     
     # Display the classification result
     st.write("Text:", text)
-    st.write("Label:", results['score'])
-    st.write("Score:", results['label'])
+    st.write("Label:", result['score'])
+    st.write("Score:", result['label'])
